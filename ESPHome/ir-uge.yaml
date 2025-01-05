@@ -1,3 +1,4 @@
+# TechHive HQ EG
 substitutions:
   dhts_gpio: D0
   rmtt_gpio: D6
