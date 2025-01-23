@@ -6,18 +6,18 @@
     - Proxmox-VE:
         icon: proxmox.png # icons found here https://github.com/walkxcode/dashboard-icons
         href: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
-        description: gad
+        description: Proxmox VE
         widget:
             type: proxmox
             url: "{{HOMEPAGE_VAR_PROXMOX_URL}}"
             username: "{{HOMEPAGE_VAR_PROXMOX_USER}}"
             password: "{{HOMEPAGE_VAR_PROXMOX_API_KEY}}"
-            node: gad # optional
+            node: node name # optional
 
     - Proxmox-PBS:
         icon: proxmox.svg
         href: "{{HOMEPAGE_VAR_PROXMOX_PBS_URL}}"
-        description: pbs
+        description: Proxmox Backup Server
         widget:
             type: proxmoxbackupserver
             url: "{{HOMEPAGE_VAR_PROXMOX_PBS_URL}}"
@@ -27,7 +27,7 @@
     - TrueNAS:
         icon: truenas.svg
         href: "{{HOMEPAGE_VAR_TRUENAS_URL}}"
-        description: Gad TrueNAS Scale
+        description: TrueNAS Scale
         widget:
             type: truenas
             url: "{{HOMEPAGE_VAR_TRUENAS_URL}}"
@@ -63,7 +63,7 @@
     - Home Assistant:
         icon: home-assistant.svg
         href: "{{HOMEPAGE_VAR_HOME_ASSISTANT_URL}}"
-        description: Automation
+        description: Home
         widget:
             type: homeassistant
             url: "{{HOMEPAGE_VAR_HOME_ASSISTANT_URL}}"
@@ -80,7 +80,7 @@
     - Traefik:
         icon: traefik.svg
         href: "{{HOMEPAGE_VAR_TRAEFIK_URL}}"
-        description: DNS
+        description: Traefik
         widget:
             type: traefik
             url: "{{HOMEPAGE_VAR_TRAEFIK_URL}}"
@@ -115,19 +115,8 @@
             password: "{{HOMEPAGE_VAR_PHOTOPRISM_PASSWORD}}"
 
 - Other:
-
     - GitHub:
         icon: github.svg
         href: https://github.com
         description: source code
 
-    - Router:
-        icon: router.svg
-        href: https://    # add your ip
-        description: Home Internet
-
-# Add Printer or hash/remove if not available
-    - Printer:
-        icon: printer.svg
-        href: http://       # add your ip
-        description: Laser Jet
